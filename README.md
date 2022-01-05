@@ -31,7 +31,8 @@ then such loans can be reduced thereby cutting down the amount of credit loss.
 -         a) loan_amnt
 -         b) annual_inc
 -         c) int_rate
-
+## NOTE -
+- The presentation has analysis points of each section. The python file has all the plots, graphs and code.
 
 ## Contributors
 
