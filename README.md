@@ -1,48 +1,46 @@
 # Project Name
-> Outline a brief description of your project.
+> Lending Club Case Study for IIITB in collaboration with upGrad as part of Executive Post Graduate Progam in ML and AI
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss). The credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. 
+* The main objective is to be able to identify these risky loan applicants, 
+then such loans can be reduced thereby cutting down the amount of credit loss. 
+* Perform EDA so that, the company can utilise this knowledge for its portfolio and risk assessment. 
 
-<!-- You can include any other section that is pertinent to your problem -->
+## Technologies Used -
+ -   Python 3
+ -   Pandas, MatPlot and Seaborn Lib's
+ 
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Steps
+- Step 1: Data Cleaning 
+-          Cleaning
+-          Manipulate
+-          Standardize
+- Step 2: Univariate Analyis
+-          a) Quantitative Variables - loan_amnt, funded_amnt,int_rate & annual_inc
+-          b) Unordered Categorical Variables - loan_status & purpose
+-          c) Ordered Categorical Variables - Term
+-          d) Ordered Categorical Variable from Derived Columns - issue_month and issue_year
+- Step 3: Segmented Univariate Analysis
+-          a) term
+-          b) Derived columns - month and year
+- Step 4: Bivarite Analyis  
+- Step 5: Multivariate Analysis 
+-         a) loan_amnt
+-         b) annual_inc
+-         c) int_rate
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Contributors
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Santosh Nagaraju
+- Senthil Nathan Jayaraman
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@santoshnagaraju] - feel free to contact me!
 
 
 <!-- Optional -->
